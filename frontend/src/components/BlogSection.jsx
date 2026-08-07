@@ -14,11 +14,12 @@ function BlogSection() {
           </h2>
           <p className="text-base leading-8 text-[#9CA3AF]">
             A simple, reusable feed for documenting each step of the journey.
-            Add a new image and a new post object to extend the archive.
+            Each post is now a wider layout with the image and day on the left,
+            and a longer description on the right.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid gap-6">
           {blogPosts.map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}

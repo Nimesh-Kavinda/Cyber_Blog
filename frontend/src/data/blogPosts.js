@@ -6,19 +6,15 @@ export const blogPosts = [
   {
     id: 1,
     day: 'Day 01',
-    title: 'Introduction to Cybersecurity',
     image: blogImage('day01.jpg'),
     description:
-      'A first look at the cybersecurity landscape, the major domains, and the mindset needed to learn effectively.',
-    readTime: '5 min',
+      'I started by understanding what cybersecurity actually covers, why it matters, and how different areas like networking, system security, and threat analysis connect to one another. This first step helped me move from vague interest to a more structured learning path. I also wrote down the core terms I kept seeing repeatedly so I could build a stronger foundation before moving into technical practice.',
   },
   {
     id: 2,
     day: 'Day 02',
-    title: 'Core Concepts and Defensive Thinking',
     image: blogImage('day02.jpg'),
     description:
-      'An early breakdown of threat awareness, basic defense principles, and how to turn theory into practical habits.',
-    readTime: '6 min',
+      'On the second day, I focused on defensive thinking and the habits that support it, including observation, verification, and documenting small wins. I explored how attackers think, how defenders respond, and how to train myself to notice patterns before they become problems. This made the learning process feel more practical and less abstract.',
   },
 ];
