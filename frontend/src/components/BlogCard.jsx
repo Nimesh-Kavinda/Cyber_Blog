@@ -14,7 +14,7 @@ function BlogCard({ post }) {
         </div>
 
         <div className="flex items-center p-6 sm:p-8">
-          <p className="text-base leading-8 text-[#9CA3AF] sm:text-lg">
+          <p className="text-base leading-8 text-[#9CA3AF] sm:text-lg whitespace-break-spaces">
             {post.description}
           </p>
         </div>

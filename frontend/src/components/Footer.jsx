@@ -39,7 +39,7 @@ function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm text-[#9CA3AF] sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div className="space-y-1">
             {/* Update this name everywhere you want the footer branding to match your real identity. */}
-            <div className="font-semibold text-white">My Name</div>
+            <div className="font-semibold text-white">Nimesh Kavinda</div>
             <div>Cybersecurity Learning Journey</div>
           </div>
 
