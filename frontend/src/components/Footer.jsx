@@ -46,7 +46,7 @@ function Footer() {
           <div className="flex flex-wrap gap-5">
             {/* Update these links to point to your actual GitHub and LinkedIn profiles. */}
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/nimesh-kavinda"
               target="_blank"
               rel="noreferrer"
               className="transition-colors duration-200 hover:text-[#ff5c5c]"
@@ -54,7 +54,7 @@ function Footer() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/your-username"
+              href="https://linkedin.com/in/nimesh-kavinda-karunasinghe"
               target="_blank"
               rel="noreferrer"
               className="transition-colors duration-200 hover:text-[#ff5c5c]"
@@ -63,7 +63,9 @@ function Footer() {
             </a>
           </div>
 
-          <div>Copyright © 2026 My Name. All rights reserved.</div>
+          <div>
+            Copyright © 2026 Nimesh Kavinda Karunasinghe. All rights reserved.
+          </div>
         </div>
       </footer>
     </>

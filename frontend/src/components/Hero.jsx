@@ -1,15 +1,15 @@
 // Update this image when you replace the profile portrait in src/assets/profile/.
-const heroImage = new URL('../assets/profile/profile.jpg', import.meta.url)
+const heroImage = new URL('../assets/profile/profile.jpeg', import.meta.url)
   .href;
 
 const socialLinks = [
   {
     label: 'GitHub',
-    href: 'https://github.com/your-username',
+    href: 'https://github.com/nimesh-kavinda',
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/your-username',
+    href: 'https://linkedin.com/in/nimesh-kavinda-karunasinghe',
   },
 ];
 
@@ -29,8 +29,7 @@ function Hero() {
               />
             </div>
             <div className="mt-4 flex items-center justify-between rounded-2xl border border-[#2F2F2F] bg-[#0f0f0f] px-4 py-3 text-xs uppercase tracking-[0.24em] text-[#9CA3AF]">
-              <span>Self-learning</span>
-              <span>Daily notes</span>
+              <span>Nimesh Kavinda Karunasinghe</span>
             </div>
           </div>
         </div>
